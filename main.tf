@@ -1,15 +1,3 @@
-# S3 backend
-# terraform {
-#   backend "s3" {
-#     bucket         = "terraform-series-150903-s3-backend"
-#     key            = "develop"
-#     region         = "us-east-1"
-#     encrypt        = true
-#     role_arn       = "arn:aws:iam::471112789042:role/Terraform-Series-150903S3BackendRole"
-#     dynamodb_table = "terraform-series-150903-s3-backend"
-#   }
-# }
-# -----------------------------------------------------------------------------------------------
 
 #Remote backend
 terraform { 
